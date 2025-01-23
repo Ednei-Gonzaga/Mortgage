@@ -49,7 +49,7 @@ btnCalculate.addEventListener("click", () => {
             campoRate.className = "input_term";
             campoRepayment.className = "radio";
             campoInterest.className = "radio";
-            document.getElementById("error").style.display = "none";
+            document.getElementById("error").innerHTML = "";
         }
 
 

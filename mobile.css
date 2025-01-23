@@ -249,6 +249,9 @@
         width: 550px;
         border-radius: 0px 0px 10px 10px;
     }
+    .result2 p{
+        text-align: center;
+    }
     #mortgage_money{
         font-size:45px;
         text-align: left;

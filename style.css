@@ -78,6 +78,7 @@ input:focus {
 
 .montagage {
     display: flex;
+    justify-content: space-between;
     max-width: 450px;
     height: 45px;
     border: 2px solid black;
@@ -96,7 +97,7 @@ input:focus {
     font-weight: bolder;
     background-color: hsl(202, 86%, 94%);
     padding: 10px 15px 10px 15px;
-    border-radius: 0px 5px 0px 5px;
+    border-radius: 0px 3px 0px 3px;
 }
 
 .montagage:focus-within #p_Amount {
@@ -129,6 +130,7 @@ input:focus {
 
 .input_term {
     display: flex;
+    justify-content: space-between;
     border: 2px solid black;
     margin-top: 10px;
     border-radius: 5px;
@@ -153,7 +155,7 @@ input:focus {
     font-weight: bolder;
     background-color: hsl(202, 86%, 94%);
     padding: 10px 15px 10px 15px;
-    border-radius: 5px;
+    border-radius: 3px;
 
 }
 
@@ -410,6 +412,7 @@ input {
 
 .ErrorTermRate{
     display: flex;
+    justify-content: space-between;
     border: 2px solid red;
     margin-top: 10px;
     border-radius: 5px;
@@ -426,7 +429,7 @@ input {
     font-size: 20px;
     font-weight: bolder;
     padding: 10px 15px 10px 15px;
-    border-radius: 5px;
+    border-radius: 3px;
     background-color: #f36b6b;
 }
 

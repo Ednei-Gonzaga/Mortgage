@@ -60,14 +60,15 @@
 
     .result {
         
-        border-radius: 0px;
+        border-radius: 0;
         min-height: 600px;
     
     }
     .result2 {
-        max-width: 250px;
-        min-height: 660px;
-        border-radius:none;
+
+        max-width: 280px;
+        min-height: 620px;
+        border-radius: 0;
     
     }
     #mortgage_money{
@@ -86,7 +87,7 @@
     }
 
     .load {
-        border-radius: none; 
+        border-radius: 0; 
         width: 250px;
         min-height: 600px;
         

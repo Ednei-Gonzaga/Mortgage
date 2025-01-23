@@ -342,7 +342,7 @@ input {
     background-color: hsl(202, 55%, 16%);
     border-radius: 0px 20px 20px 100px;
     width: 400px;
-    height: 600px;
+    min-height: 600px;
     position: absolute;
     animation-name: troca;
     animation-duration: 2s;

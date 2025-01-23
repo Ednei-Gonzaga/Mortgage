@@ -61,12 +61,12 @@
     .result {
         
         border-radius: 0px;
-        height: 600px;
+        min-height: 600px;
     
     }
     .result2 {
         max-width: 250px;
-        height: 550px;
+        min-height: 550px;
         border-radius:none;
     
     }
@@ -85,9 +85,9 @@
     }
 
     .load {
- 
+        border-radius: none; 
         width: 250px;
-        height: 400px;
+        min-height: 600px;
         
     }
 

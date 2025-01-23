@@ -37,7 +37,7 @@ btnCalculate.addEventListener("click", () => {
         campoRate.className = "ErrorTermRate";
         campoRepayment.className = "ErrorRadio";
         campoInterest.className = "ErrorRadio";
-        document.getElementById("error").innerHTML = "Por favor, preencha todos os campos e utilize <b>apenas números!</b>"
+        document.getElementById("error").innerHTML = "Please, fill in all the fields and use <b>only numbers!</b>"
 
 
 

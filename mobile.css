@@ -60,6 +60,11 @@
         min-height: 600px;
     
     }
+    .result h1{
+        font-size: 30px;
+        width: 280px;
+        text-align: center;
+    }
     .result2 {
 
         max-width: 280px;
@@ -101,7 +106,7 @@
     }
     
     .ErrorTermRate #p_term{
-        margin-left: -20px;
+        margin-left: -23px;
     }
     
     

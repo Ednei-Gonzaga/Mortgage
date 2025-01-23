@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="mobile.css">
+
+</head>
+
+<body>
+
+    <div class="container_principal">
+        <div class="forms">
+            <div class="title">
+                
+                <h2>Mortgage Calculator</h2>
+                <button id="btn"> Clear all</button>
+            </div>
+
+            <div class="amount">
+                <p>Montagage Amount</p>
+                <div class="montagage">
+                    <div id="p_Amount">
+                        <p>£</p>
+                    </div>
+                    <input type="text" id="input01">
+                </div>
+
+            </div>
+
+            <div class="term_rate">
+                <div class="term">
+                    <p>Mortgage Term</p>
+
+                    <div class="input_term">
+                        <input type="text" id="years">
+                        <p id="p_term">years</p>
+                    </div>
+                </div>
+
+                <div class="rate">
+                    <p>Interest Rate</p>
+                    <div class="input_term">
+                        <input type="text" id="taxa">
+                        <p id="p_rate">%</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="type">
+                <p>Mortgage Type</p>
+
+                <div class="radio">
+                    <input type="radio" id="Repayment" name="escolha"> <label for="Repayment">Repayment</label>
+                </div>
+
+                <div class="radio">
+                    <input type="radio" id="Interest" name="escolha"> <label for="Interest">Interest Only</label>
+                </div>
+            </div>
+            <button id="btn2"><i class="fa-solid fa-calculator" style="color: #111b2c;"></i> Calculate
+                Repayments</button>
+
+                <p id="error" style="color: red; margin-top: 20px; 
+                text-align: center;"></p>
+
+
+        </div>
+
+
+        <div class="result">
+            <img src="imagem/caculator (1).png" alt="" width="230">
+            <h1>Results shown here</h1>
+            <p>Complete the form and click "calculete repayments" to see what your monthly
+                repayments would be
+            </p>
+            
+            <!--PARTE LOAD(CARREGAMENTO)-->
+            <div class="load">
+                <div class="divload1"></div>
+                <div class="divload2"></div>
+                <div class="divload3"></div>
+                <div class="divload4"></div>
+            </div>
+
+            <!--PARTE DEPOIS DE COLOCAR DADOS E PEDIR CALCULO-->
+            <div class="result2">
+                <h1>Your results</h1>
+                <p>
+                    Your results are shown below based on the information you provided.
+                    To adjust the results,
+                    edit the form and click "calculate repayments" again.
+                </p>
+                <div class="respost">
+                    <div class="div_calcule">
+                        <P id="text_mortgage"></P>
+                        <h1 id="mortgage_money"></h1>
+                    </div>
+                    <div class="div_total">
+                        <p>total you'li repay over the term</p>
+                        <h2 id="total"></h2>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

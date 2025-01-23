@@ -1,0 +1,301 @@
+@media(max-width: 650px) {
+    body{
+        height: 1400px;
+    }
+    .container_principal {
+        flex-wrap: wrap;
+        max-width: 320px;
+        min-width: 230;
+        margin: -99px;
+        
+
+    }
+  
+
+    .title {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      
+    }
+
+    .amount p {
+        margin-bottom: 10px;
+        font-size: 17px;
+    }
+
+    .montagage {
+        max-width: 250px;
+    }
+
+    .montagage input {
+        max-width: 190px;
+        font-size: 17px;
+    }
+
+    .term_rate {
+        flex-wrap: wrap;
+        gap: 20px;
+        max-width: 220px;
+    }
+
+    .input_term{
+        width: 250px;
+    }
+    .input_term p{
+        margin-left: 35px;
+    }
+    #p_term{
+        margin-left: 10px;
+    }
+
+    .radio {
+        border-radius: 5px;
+        max-width: 250px;
+    }
+
+    #btn2 {
+        max-width: 250px;
+    }
+
+    .result {
+        
+        border-radius: 0px;
+        height: 600px;
+    
+    }
+    .result2 {
+        max-width: 250px;
+        height: 550px;
+        border-radius:none;
+    
+    }
+    #mortgage_money{
+        font-size:25px
+    }
+
+    .respost {
+        max-width: 220px;
+   
+    }
+    #total {
+        color: #fff;
+        font-size: 18px;
+    
+    }
+
+    .load {
+ 
+        width: 250px;
+        height: 400px;
+        
+    }
+
+
+
+
+    
+    
+
+    .ErrorTermRate input {
+        width: 191px;
+        
+    }
+    
+    .ErrorTermRate #p_term{
+        margin-left: -20px;
+    }
+    
+    
+    
+    .ErrorAmount{
+        max-width: 255px;
+    }
+
+}
+
+@media(min-width: 651px) and (max-width:976px){
+    body{
+        height: 1100px;
+    }
+
+    .container_principal {
+        flex-wrap: wrap;
+        max-width: 600px;
+       justify-content: center;
+        
+    }
+  
+
+    .title{
+        width: 600px;
+    }
+     
+    
+
+    .forms{
+        max-width: 600px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;  
+    }
+
+
+    
+    .montagage{
+        margin-right:30px;
+           
+    }
+
+
+    .montagage input {
+        width: 190px;
+        font-size: 17px;
+    }
+
+
+    .term_rate {
+        margin-top: 50px ;
+        flex-wrap: wrap;
+        gap: 20px;
+        max-width: 220px;
+    }
+
+
+    .input_term{
+        width: 250px;
+    }
+
+
+    .input_term p{
+        margin-left: 35px;
+    }
+
+
+    #p_term{
+        margin-left: 17px;
+        padding: 12px;
+        border-radius: 1px;
+    }
+
+
+
+    #p_rate {
+        border-radius: 2px;
+
+    }
+
+
+
+    .type{
+        position: absolute;
+        top: 210px;
+    }
+
+    .radio {
+        border-radius: 5px;
+        width: 250px;
+    }
+
+
+
+
+    #btn2 {
+        position: relative;
+        width: 250px;
+        border-radius: 10px;
+        left: 275px;
+        bottom: 10px;
+        padding: 15px;
+    }
+
+    #error{
+        position: absolute;
+        top: 380px;
+        right: 190px;
+    }
+
+
+
+
+
+
+    .result {  
+        border-radius: 0px;
+        height: 600px;
+        width: 600px;
+        border-radius: 0px 0px 10px 10px;
+        align-content: center;
+    
+    }
+
+
+    .result h1{
+        width: 550px;
+        text-align: center;
+        
+    }
+
+
+
+
+
+
+    .result2 {
+        border-radius: 0px;
+        height: 600px;
+        width: 550px;
+        border-radius: 0px 0px 10px 10px;
+    }
+    #mortgage_money{
+        font-size:45px;
+        text-align: left;
+    }
+
+    .respost {
+        width: 420px;
+        margin-top: 40px;
+   
+    }
+    #total {
+        color: #fff;
+        font-size: 38px;
+    
+    }
+
+
+
+
+
+    .load {
+        border-radius: 0px;
+        height: 600px;
+        width: 550px;
+        border-radius: 0px 0px 10px 10px;
+        
+    }
+
+
+
+
+    .ErrorRadio{
+        width: 250px;
+    }
+    
+
+    .ErrorTermRate input {
+        width: 190px;
+        margin-left: 10px;
+        
+    }
+    
+    .ErrorTermRate #p_term{
+        margin-left: -20px;
+    }
+    
+    .ErrorAmount{
+        max-width: 255px;
+        margin-right: 10px;
+    }
+
+}

@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+* {
+    margin: 0px;
+}
+
+p {
+    color: hsl(200, 24%, 40%);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(202, 86%, 94%);
+}
+
+input:focus {
+    outline: none
+}
+
+
+
+
+
+
+
+
+
+.container_principal {
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px #a5a2a2;
+    background-color: #fff;
+    width: 1000px;
+
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 30px;
+}
+
+/*PARTE TITTULO DO FORM*/
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Plus Jakarta Sans", serif;
+    font-size: 16px;
+    color: hsl(202, 55%, 16%);
+
+}
+
+#btn {
+    background: none;
+    border: none;
+    text-decoration: underline;
+    font-size: 16px;
+    color: hsl(203, 41%, 72%);
+
+}
+
+/*PARTE MONTAGE AMOUNT*/
+
+.amount {
+    margin-top: 50px;
+}
+
+.amount p {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.montagage {
+    display: flex;
+    max-width: 450px;
+    height: 45px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.montagage:focus-within {
+    border: 2px solid hsl(61, 70%, 52%);
+    box-shadow: 2px 2px 2px #9c9595;
+}
+
+
+
+#p_Amount {
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: hsl(202, 86%, 94%);
+    padding: 10px 15px 10px 15px;
+    border-radius: 0px 5px 0px 5px;
+}
+
+.montagage:focus-within #p_Amount {
+    background-color: hsl(61, 70%, 52%);
+}
+
+
+.montagage input {
+    width: 450px;
+    border: none;
+    background: none;
+    font-size: 20px;
+}
+
+
+
+
+
+/*PARTE TERM E RATE*/
+/*TERM*/
+.term_rate {
+    display: flex;
+    margin-top: 30px;
+}
+
+.term {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.input_term {
+    display: flex;
+    border: 2px solid black;
+    margin-top: 10px;
+    border-radius: 5px;
+
+
+}
+
+.input_term:focus-within {
+    border: 2px solid hsl(61, 70%, 52%);
+    box-shadow: 2px 2px 2px #9c9595;
+}
+
+.input_term input {
+    width: 150px;
+    border: none;
+    background: none;
+    font-size: 20px;
+}
+
+.input_term p {
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: hsl(202, 86%, 94%);
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+
+}
+
+.input_term:focus-within p {
+    background-color: hsl(61, 70%, 52%);
+}
+
+/*RATE*/
+
+.rate {
+    font-size: 20px;
+}
+
+/*TYPE*/
+
+
+.type {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.radio {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+
+.radio:focus-within {
+    border: 2px solid #d7da2f;
+    background-color: #ececc2c9;
+    box-shadow: 2px 2px 2px #9c9595;
+}
+
+
+.s {
+    accent-color: hsl(61, 70%, 52%);
+}
+
+.radio label,
+input {
+    margin-left: 10px;
+}
+
+.radio input {
+    margin-left: 10px;
+    transform: scale(1.5);
+}
+
+
+#btn2 {
+    width: 300px;
+    background-color: hsl(61, 70%, 52%);
+    margin-top: 30px;
+    border-radius: 30px;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+/*Parte onde exibe os resultados primeira tela*/
+
+
+
+.result {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(202, 55%, 16%);
+    border-radius: 0px 20px 20px 100px;
+    width: 500px;
+    height: 600px;
+
+}
+
+.result h1 {
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.result p {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+/*TELA DE CARREGAMENTO*/
+
+.load {
+    padding: 20px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background-color: hsl(202, 55%, 16%);
+    border-radius: 0px 20px 20px 100px;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+
+    
+}
+
+.divload1 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #d7da2f;
+    animation: load 1s infinite alternate;
+    animation-delay: 1s;
+    animation-direction:alternate ;
+}
+
+.divload2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #d7da2f;
+    animation: load 1s infinite alternate;
+    animation-delay: 1.4s;
+    animation-direction:alternate ;
+
+}
+
+.divload3 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #d7da2f;
+    animation: load;
+    animation: load 1s infinite alternate;
+    animation-delay: 1.6s;
+
+}
+
+.divload4 {
+    width: 30px;
+    background-color: #d7da2f;
+    height: 30px;
+    border-radius: 100%;
+    animation: load 1s infinite alternate;
+    animation-delay: 1.9s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*TELA RESULTADO*/
+
+.result2 {
+    padding: 20px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(202, 55%, 16%);
+    border-radius: 0px 20px 20px 100px;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    animation-name: troca;
+    animation-duration: 2s;
+}
+
+
+.result2 p,
+h1 {
+    align-self: flex-start;
+    text-align: left;
+}
+
+.respost {
+    background-color: hsl(203, 50%, 9%);
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    border-top: 4px solid #d7da2f;
+    padding: 30px;
+}
+
+.div_calcule {
+    border-bottom: 3px solid #9c9595;
+}
+
+#mortgage_money {
+    color: #d7da2f;
+    font-size: 60px;
+}
+
+#total {
+    color: #fff;
+    font-size: 30px;
+
+}
+
+
+
+
+
+/*CASO AJA CAMPO NAO PRENCHIDO*/
+
+.ErrorRadio{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid red;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.ErrorRadio label,
+input {
+    margin-left: 10px;
+}
+
+.ErrorRadio input {
+    margin-left: 10px;
+    transform: scale(1.5);
+}
+
+
+
+
+.ErrorTermRate{
+    display: flex;
+    border: 2px solid red;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.ErrorTermRate input {
+    width: 150px;
+    border: none;
+    background: none;
+    font-size: 20px;
+}
+
+.ErrorTermRate p{
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    background-color: #f36b6b;
+}
+
+
+
+.ErrorAmount{
+    display: flex;
+    max-width: 450px;
+    height: 45px;
+    border: 2px solid black;
+    border-radius: 5px;
+    border:2px solid red;
+}
+.ErrorAmount #p_Amount {
+    background-color: #f36b6b;
+}
+.ErrorAmount input {
+    width: 450px;
+    border: none;
+    background: none;
+    font-size: 20px;
+}
+
+
+
+
+/*animação carregamento*/
+
+@keyframes load {
+    from{
+        transform: translateY(0px);
+        background-color: #d7da2f;
+    }
+    to{
+        transform: translateY(-19px);
+        background-color:#ff1414a6;
+
+    }
+}
+
+
+
+
+/*segunda tela*/
+
+@keyframes troca {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+

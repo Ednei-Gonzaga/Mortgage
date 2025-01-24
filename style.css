@@ -97,7 +97,7 @@ input:focus {
     font-weight: bolder;
     background-color: hsl(202, 86%, 94%);
     padding: 10px 15px 10px 15px;
-    border-radius: 0px 3px 0px 3px;
+    border-radius: 4px;
 }
 
 .montagage:focus-within #p_Amount {
@@ -213,6 +213,7 @@ input {
 #btn2 {
     width: 300px;
     background-color: hsl(61, 70%, 52%);
+    border: 3px solid black;
     margin-top: 30px;
     border-radius: 30px;
     padding: 15px;
@@ -356,7 +357,6 @@ input {
 
 .result2 p,
 h1 {
-    align-self: flex-start;
     text-align: left;
 }
 
@@ -380,6 +380,7 @@ h1 {
 #mortgage_money {
     color: #d7da2f;
     font-size: 50px;
+    text-align: left;
 }
 
 #total {

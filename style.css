@@ -246,6 +246,9 @@ input {
     color: #fff;
     margin-top: 20px;
     margin-bottom: 20px;
+    text-align: center;
+    width: 450px;
+
 }
 
 
@@ -358,6 +361,8 @@ h1 {
 }
 
 .respost {
+    display: flex;
+    flex-direction: column;
     background-color: hsl(203, 50%, 9%);
     width: 350px;
     height: 250px;
@@ -368,6 +373,8 @@ h1 {
 
 .div_calcule {
     border-bottom: 3px solid #9c9595;
+    text-align: left;
+
 }
 
 #mortgage_money {

@@ -73,7 +73,8 @@
     
     }
     #mortgage_money{
-        font-size:25px
+        font-size:25px;
+        text-align: left;
     }
 
     .respost {
@@ -228,7 +229,7 @@
         align-content: center;
     
     }
-
+    
 
     .result h1{
         width: 550px;
@@ -250,19 +251,26 @@
     .result2 p{
         text-align: center;
     }
-    #mortgage_money{
-        font-size:45px;
-        text-align: left;
-    }
-
     .respost {
         width: 420px;
         margin-top: 40px;
    
     }
+    .respost p {
+       align-self: flex-start;
+    }
+
+    #mortgage_money{
+        font-size:45px;
+        text-align: center;
+        width: 420px;
+    }
+
+
     #total {
         color: #fff;
         font-size: 38px;
+        text-align: center;
     
     }
 
